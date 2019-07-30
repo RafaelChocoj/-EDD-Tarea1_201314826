@@ -118,7 +118,7 @@ class Lista_enla():
     #Imprimir lista
     def Listar_lista(self):
         if self.esVacio()== True:
-            print ("La lista esta vacia")
+            print ("La  lista esta vacia")
         else:
             aux = self.primero
             while aux != None:
